@@ -138,8 +138,8 @@
 
 .slides-div1-left {
 
-    width: 45%;
-    height: 100vh;
+    width: 47%;
+    height: 800px;
     background-color: #fef4e8;
     float: left;
     padding: 50px 0px 0px 50px;
@@ -148,8 +148,8 @@
 
 .slides-div2-left {
 
-    width: 55%;
-    height: 100vh;
+    width: 53%;
+    height: 800px;
     background-color: #f1f1f1;
     float: right;
     padding: 50px 0px 0px 50px;
@@ -158,22 +158,26 @@
 
 .slides-image-right {
     position: absolute;
-    top: 25%;
-    left: 50%;
+    top: 30%;
+    left: 45%;
     transform: translate(-50%, 0%);
+}
+
+.slides-image-right img {
+    width: 30vw;
+
 }
 
 .slides-div1-left {
 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+
+    padding-left: 40px;
+    padding-top: 400px;
 
 }
 
 .slides-div2-left {
 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    padding-left: 30vw;
+    padding-top: 300px;
 }
